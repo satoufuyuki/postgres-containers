@@ -1,0 +1,12 @@
+apiVersion: postgresql.cnpg.io/v1
+kind: ClusterImageCatalog
+metadata:
+  name: satoufuyuki-postgresql
+spec:
+  images:
+    - major: 16
+      image: ghcr.io/satoufuyuki/postgresql:16.13-64cfeaf531f7697b7a98e5a237195ab9eee42dca
+    - major: 17
+      image: ghcr.io/satoufuyuki/postgresql:17.9-64cfeaf531f7697b7a98e5a237195ab9eee42dca
+    - major: 18
+      image: ghcr.io/satoufuyuki/postgresql:18.3-64cfeaf531f7697b7a98e5a237195ab9eee42dca
